@@ -1,0 +1,17 @@
+entitas sekolah        entitas siswa       entitas guru           entitas staff            entitas penjaga
+no   atribut          no   atribut           no   atribut           no  atribut              no  atribut
+ 1.  siswa            1.   nama              1.   nama               1.  nama                1. nama
+ 2.  guru             2.   tanggal lahir     2.   tanggal lahir      2.  tanggal lahir       2. tanggal lahir
+ 3.  staff            3.   alamat            3.   alamat             3.  no telpon           3. alamat 
+ 4.  penjaga          4.   jenis kelamin     4.   mapel              4.  jenis kelamin       4. shift
+ 5.  mata pelajaran   5.   email             5.   pendidikan akhir   5.  jabatan             5. no telpon
+                      6.   nisn              6.   no telpon          6.  pendidikan akhir
+
+
+entitas mata pelajaran
+no   atribut
+1.   nama mapel
+2.   jadwal
+3.   guru
+4.   jam mapel 
+5.   kkm mapel

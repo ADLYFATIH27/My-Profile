@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY COMPANY</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <style>
+
+        nav.navbar {
+            z-index: 1;
+        }
+
+
+        .jumbotron .row-img {
+            width: 100%;
+            height: 100vh;
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/026/305/040/original/vintage-abstract-black-white-wave-background-free-video.jpg');
+            background-position: center;
+            position: relative;
+         
+        }
+
+        .jumbotron.row-img::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(5, 55, 66, 0.5);
+        }
+
+        .about .row-img {
+            width : 100%;
+        }
+
+        .about .row-img .md5:nth-child(1) {
+            background-color: #0A1931;
+            width: 50%;
+            height: 100vh;
+        }
+
+        .about .row-img .md5:nth-child(2) {
+            background-image: url('https://i.pinimg.com/736x/4c/61/c6/4c61c6e21e18ffd6bc05ea168e6443af.jpg');
+            width: 50%;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .services {
+            background-color: #033869;
+        }
+
+        .penguasaan-keterampilan .card {
+            background-color: #033869;
+            color: #fff;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">MY COMPANY</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="jumbotron" class="jumbotron">
+    <div class="row-img d-flex align-items-center justify-content-center text-white">
+      <div class="col-md-6" style="z-index: 1;">
+        <h1 class="display-4">Welcome to MY COMPANY</h1>
+        <p class="lead">"Halo! Selamat datang di website Saya. Ini adalah website pribadi saya yang berisi tentang saya,                Website ini dibuat untuk memperkenalkan diri saya,
+                pengalaman, kemampuan, serta berbagai hal yang sedang
+                saya kerjakan."</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Mau Lihat Lebih Lanjut</a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="row-img d-flex">
+
+        <div class="md5 p-5 d-flex flex-column justify-content-center align-items-start text-white">
+            <h2 class="fw bold">Tentang Saya</h2>
+
+            <p>
+                Halo! Nama saya Adly Fatih Hakiki. Saya adalah seorang
+                Pelajar Sekolah Menengah Kejuruan SMK BINA PUTRA MANDIRI, saya lahir di bogor pada tanggal 15 Juni 2010 BOGOR JAWA BARAT. Saya memiliki ketertarikan yang besar dalam dunia teknologi, desain, dan pengembangan website. Saya senang mengeksplorasi hal-hal baru dan terus mencari tantangan untuk meningkatkan kemampuan saya.
+                Saya adalah seorang individu yang memiliki semangat belajar yang tinggi dan selalu berusaha untuk mengembangkan diri dalam berbagai bidang. 
+                Saya memiliki minat yang besar dalam dunia teknologi, desain, dan pengembangan website.
+            </p>
+
+            <h4 class="fw bold">Mengenal Lebih Dekat Saya</h4>
+
+            <p>
+            Saya adalah seseorang yang memiliki ketertarikan yang besar dalam dunia teknologi dan pengembangan website.
+            Saya Masih Kelas XI Jurusan Rekayasa Perangkat Lunak di SMK BINA PUTRA MANDIRI. Saya memiliki semangat belajar yang tinggi dan selalu berusaha untuk mengembangkan diri dalam berbagai bidang. Saya senang mengeksplorasi hal-hal baru dan terus mencari tantangan untuk meningkatkan kemampuan saya.
+            Cita-cita saya adalah Menjadi Atlet Volly Profesional, Saya percaya bahwa dengan kerja keras, dedikasi, dan semangat belajar yang tinggi, saya dapat mencapai tujuan tersebut.
+            Hobi saya adalah Bermain Volly Dan Naik Gunung (kalo ada duitnya)
+        </div>
+        <div class="md5"></div>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <div class="container py-5">
+        <h2 class="text-center text-white mb-4">Penguasaan Keterampilan</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-code-slash fs-1 mb-3"></i>
+                        <h5 class="card-title">Pengembangan Website Pemula</h5>
+                        <p class="card-text">Saya masih amatir dalam pengembangan website, harus lebih banyak belajar lagi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-palette fs-1 mb-3"></i>
+                        <h5 class="card-title">Bisa Membuat Usaha Kecil-kecilan</h5>
+                        <p class="card-text">Saya mampu membuat usaha kecil-kecilan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-phone fs-1 mb-3"></i>
+                        <h5 class="card-title">Aplikasi Mobile</h5>
+                        <p class="card-text">Saya mengembangkan aplikasi mobile yang user-friendly untuk berbagai platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
